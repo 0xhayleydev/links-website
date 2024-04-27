@@ -1,12 +1,21 @@
-html {
+body {
+    background-color: #444444;
     font-family: "Kode Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: 400;
-    margin: auto;
     text-align: center;
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+.content {
+    margin: auto;
     min-width: 580px;
     max-width: 580px;
-    font-size: 12pt;
+}
+
+.blur-background {
+    backdrop-filter: blur(10px);
+    -webkit-background-filter: blur(10px);
 }
 
 .intro {
@@ -16,6 +25,25 @@ html {
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
+    width:580px;
+    margin: auto;
+    position: relative;
+}
+
+.intro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-image: url('/img/intro-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    filter: blur(10px); /* Adjust the blur amount as needed */
+    z-index: -1; /* Ensure it's behind other content */
 }
 
 .intro>.image {
@@ -73,7 +101,7 @@ html {
 }
 
 @media screen and (orientation: portrait) {    
-    html {
+    .content {
         max-width: 100vw;
         font-size: 16pt;
     }
