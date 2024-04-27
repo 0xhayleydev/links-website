@@ -9,7 +9,7 @@
         },
         {
             "name": "itchio",
-			"display-text": "View my games on itch.io",
+			"display-text": "Play my games on itch.io",
             "icon": "brand-itchio.svg",
             "url": "https://0xhayleydev.itch.io/",
             "user-name": "0xhayleydev"

@@ -42,6 +42,7 @@ function createIcon(icon_name) {
 
 function createDisplayText(display_text) {
     let p = document.createElement('p');
+    p.classList.add('link-text');
     p.innerHTML = display_text;
     return p;
 }

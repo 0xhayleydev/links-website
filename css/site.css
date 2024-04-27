@@ -6,7 +6,7 @@ html {
     max-width: 5in;
     margin: auto;
     text-align: center;
-    min-width: 500px;
+    min-width: 580px;
 }
 
 .intro {
@@ -19,8 +19,8 @@ html {
 }
 
 .intro>.image {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     margin: auto;
 }
@@ -49,20 +49,24 @@ html {
     border: 2px solid black;
     border-radius: 4px;
     margin: 8px;
-    padding: 8px;
+    padding: 4px;
     
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    display: grid;
+	grid-template-columns: 48px 1fr 48px;
 
-    scale: 0.9;
+    scale: 0.95;
     transition: ease-in-out;
     transition-duration: 100ms;
 }
 
 .link:hover {
     scale: 1;
+    transition-duration: 200ms;
+}
+
+.link-icon {
+    width: 48px;
+    height: 48px;
+    margin: auto 8px;
+    stroke-width: 4px;
 }
