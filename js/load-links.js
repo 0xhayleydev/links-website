@@ -30,6 +30,7 @@ function createLinkContainer(link_data) {
 function createLink(link_data) {
     let a = document.createElement('a');
     a.href = link_data['url'];
+    a.classList.add('url');
     return a;
 }
 
