@@ -15,6 +15,13 @@
             "user-name": "0xhayleydev"
         },
         {
+            "name": "email",
+			"display-text": "Contact me via email",
+            "icon": "mail.svg",
+            "url": "mailto:hayley@0xhayley.dev",
+            "user-name": "hayley@0xhayley.dev"
+        },
+        {
             "name": "github",
 			"display-text": "Check out my GitHub",
             "icon": "brand-github.svg",
@@ -62,13 +69,6 @@
             "icon": "brand-youtube.svg",
             "url": "https://www.youtube.com/@0xhayleydev",
             "user-name": "0xhayleydev"
-        },
-        {
-            "name": "email",
-			"display-text": "Contact me via email",
-            "icon": "mail.svg",
-            "url": "mailto:hayley@0xhayley.dev",
-            "user-name": "hayley@0xhayley.dev"
         }
     ]
 }
