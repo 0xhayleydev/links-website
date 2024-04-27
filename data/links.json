@@ -1,0 +1,74 @@
+{
+    "links": [
+        {
+            "name": "portfolio",
+            "display-text": "Check out my portfolio",
+            "icon": "device-gamepad.svg",
+            "url": "https://hayleydavi.es/",
+            "user-name": ""
+        },
+        {
+            "name": "itchio",
+			"display-text": "View my games on itch.io",
+            "icon": "brand-itchio.svg",
+            "url": "https://0xhayleydev.itch.io/",
+            "user-name": "0xhayleydev"
+        },
+        {
+            "name": "github",
+			"display-text": "Check out my GitHub",
+            "icon": "brand-github.svg",
+            "url": "https://github.com/0xhayleydev",
+            "user-name": "0xhayleydev"
+        },
+        {
+            "name": "instagram",
+			"display-text": "Follow me on Instagram",
+            "icon": "brand-instagram.svg",
+            "url": "https://instagram.com/0xhayleydev",
+            "user-name": "0xhayleydev"
+        },
+        {
+            "name": "linkedin",
+			"display-text": "Check out my LinkedIn",
+            "icon": "brand-linkedin.svg",
+            "url": "https://www.linkedin.com/in/0xhayleydev",
+            "user-name": "0xhayleydev"
+        },
+        {
+            "name": "threads",
+			"display-text": "Follow me on Threads",
+            "icon": "brand-threads.svg",
+            "url": "https://threads.net/0xhayleydev",
+            "user-name": "0xhayleydev"
+        },
+        {
+            "name": "twitch",
+			"display-text": "Watch me on Twitch",
+            "icon": "brand-twitch.svg",
+            "url": "https://twitch.tv/0xhayleydev",
+            "user-name": "0xhayleydev"
+        },
+        {
+            "name": "twitter",
+			"display-text": "Follow me on Twitter",
+            "icon": "brand-twitter.svg",
+            "url": "https://twitter.com/0xhayleydev",
+            "user-name": "0xhayleydev"
+        },
+        {
+            "name": "youtube",
+			"display-text": "Watch me on YouTube",
+            "icon": "brand-youtube.svg",
+            "url": "https://www.youtube.com/@0xhayleydev",
+            "user-name": "0xhayleydev"
+        },
+        {
+            "name": "email",
+			"display-text": "Contact me via email",
+            "icon": "mail.svg",
+            "url": "mailto:hayley@0xhayley.dev",
+            "user-name": "hayley@0xhayley.dev"
+        }
+    ]
+}
