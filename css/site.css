@@ -5,7 +5,7 @@ body {
     font-optical-sizing: auto;
     text-align: center;
     font-weight: 400;
-    font-size: 18pt;
+    font-size: 16pt;
     margin: auto;
 }
 
@@ -70,6 +70,7 @@ body {
     opacity: 80%;
     font-size: 20pt;
     margin: auto;
+    padding: 16px;
 }
 
 .link-container {
@@ -149,6 +150,15 @@ body {
 
 .github-background::before {
     background-image: url('/img/flight-attendant-simulator.jpg');
+}
+
+.footer {
+    margin: 8px;
+}
+
+.footer>a {
+    font-size: 12pt;
+    color: white;
 }
 
 
