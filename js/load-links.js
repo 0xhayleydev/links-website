@@ -12,10 +12,8 @@ function jsonParse(data) {
 
 function createLinkContainer(link_data) {
     let a = createLink(link_data);
-
-    let container = document.createElement('div');
-    container.classList.add('link');
-    container.id = link_data['name'];
+    
+    let container = createContainer(link_data);
     a.appendChild(container);
 
     let img = createIcon(link_data['icon']);
@@ -25,6 +23,20 @@ function createLinkContainer(link_data) {
     container.appendChild(text);
 
     document.getElementById('link-container').appendChild(a);
+}
+
+function createContainer(link_data) {
+    let container = document.createElement('div');
+    container.classList.add('link');
+    container.id = link_data['name'];
+
+    if (link_data["featured"] == true) {
+        container.classList.add('featured-link');
+        container.classList.add('blur-background');
+        container.classList.add(link_data['name'] + '-background')
+    }
+
+    return container;
 }
 
 function createLink(link_data) {

@@ -5,7 +5,8 @@ body {
     font-optical-sizing: auto;
     text-align: center;
     font-weight: 400;
-    font-size: 12pt;
+    font-size: 18pt;
+    margin: auto;
 }
 
 .content {
@@ -15,8 +16,17 @@ body {
 }
 
 .blur-background {
-    backdrop-filter: blur(10px);
-    -webkit-background-filter: blur(10px);
+    overflow: hidden;
+}
+
+.blur-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Ensure it's behind other content */
 }
 
 .intro {
@@ -26,25 +36,20 @@ body {
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
-    width:580px;
+    width: 580px;
+    height: 400px;
     margin: auto;
     position: relative;
+
+    overflow: visible;
 }
 
 .intro::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    background-image: url('/img/intro-background.png');
     background-repeat: no-repeat;
     background-position: top;
+    background-image: url('/img/intro-background.png');
 
     filter: blur(10px); /* Adjust the blur amount as needed */
-    z-index: -1; /* Ensure it's behind other content */
 }
 
 .intro>.image {
@@ -74,6 +79,7 @@ body {
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
+    margin: auto;
 }
 
 .url {
@@ -82,16 +88,17 @@ body {
 }
 
 .link {
+    background-color: #111111;
     border: 2px solid white;
     border-radius: 4px;
     margin: 8px;
     padding: 4px;
     
     display: grid;
-	grid-template-columns: 48px 1fr 48px;
+    grid-template-columns: 48px 1fr 48px;
 
     scale: 0.95;
-    transition: ease-in-out;
+    transition: ease-in;
     transition-duration: 100ms;
 }
 
@@ -110,23 +117,49 @@ body {
     height: 48px;
     margin: auto 8px;
     stroke-width: 4px;
-    filter: invert(99%) sepia(1%) saturate(2072%) hue-rotate(221deg) brightness(122%) contrast(100%);
+    filter: invert(99%) sepia(1%) saturate(2072%) hue-rotate(221deg) brightness(122%) contrast(100%) drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
 }
+
+.link-text {
+    font-weight: 800;
+
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+
+.featured-link::before {
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+
+    filter: blur(5px); /* Adjust the blur amount as needed */
+}
+
+.portfolio-background::before {
+    background-image: url('/img/dead-island-2.jpg');
+}
+
+.itchio-background::before {
+    background-image: url('/img/lone-sol.jpg');
+}
+
+.email-background::before {
+    background-image: url('/img/gruttel-scuttle.jpg');
+}
+
+.github-background::before {
+    background-image: url('/img/flight-attendant-simulator.jpg');
+}
+
 
 @media screen and (orientation: portrait) {    
     .content {
         max-width: 100vw;
-        font-size: 16pt;
-    }
-
-    .intro {
-        margin: auto;
-        padding: 8px;
     }
 
     .intro>.image {
-        max-width: 25%;
-        max-height: 25%;
+        max-width: 20vh;
+        max-height: 20vh;
     }
 
     .link-icon {

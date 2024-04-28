@@ -1,6 +1,7 @@
 {
     "links": [
         {
+            "featured": true,
             "name": "portfolio",
             "display-text": "Check out my portfolio",
             "icon": "device-gamepad.svg",
@@ -8,6 +9,7 @@
             "user-name": ""
         },
         {
+            "featured": true,
             "name": "itchio",
 			"display-text": "Play my games on itch.io",
             "icon": "brand-itchio.svg",
@@ -15,6 +17,7 @@
             "user-name": "0xhayleydev"
         },
         {
+            "featured": true,
             "name": "email",
 			"display-text": "Contact me via email",
             "icon": "mail.svg",
@@ -22,6 +25,7 @@
             "user-name": "hayley@0xhayley.dev"
         },
         {
+            "featured": true,
             "name": "github",
 			"display-text": "Check out my GitHub",
             "icon": "brand-github.svg",
@@ -29,13 +33,7 @@
             "user-name": "0xhayleydev"
         },
         {
-            "name": "instagram",
-			"display-text": "Follow me on Instagram",
-            "icon": "brand-instagram.svg",
-            "url": "https://instagram.com/0xhayleydev",
-            "user-name": "0xhayleydev"
-        },
-        {
+            "featured": false,
             "name": "linkedin",
 			"display-text": "Check out my LinkedIn",
             "icon": "brand-linkedin.svg",
@@ -43,6 +41,15 @@
             "user-name": "0xhayleydev"
         },
         {
+            "featured": false,
+            "name": "instagram",
+			"display-text": "Follow me on Instagram",
+            "icon": "brand-instagram.svg",
+            "url": "https://instagram.com/0xhayleydev",
+            "user-name": "0xhayleydev"
+        },
+        {
+            "featured": false,
             "name": "threads",
 			"display-text": "Follow me on Threads",
             "icon": "brand-threads.svg",
@@ -50,6 +57,7 @@
             "user-name": "0xhayleydev"
         },
         {
+            "featured": false,
             "name": "twitch",
 			"display-text": "Watch me on Twitch",
             "icon": "brand-twitch.svg",
@@ -57,6 +65,7 @@
             "user-name": "0xhayleydev"
         },
         {
+            "featured": false,
             "name": "twitter",
 			"display-text": "Follow me on Twitter",
             "icon": "brand-twitter.svg",
@@ -64,6 +73,7 @@
             "user-name": "0xhayleydev"
         },
         {
+            "featured": false,
             "name": "youtube",
 			"display-text": "Watch me on YouTube",
             "icon": "brand-youtube.svg",
