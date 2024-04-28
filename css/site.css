@@ -118,13 +118,13 @@ body {
     height: 48px;
     margin: auto 8px;
     stroke-width: 4px;
-    filter: invert(99%) sepia(1%) saturate(2072%) hue-rotate(221deg) brightness(122%) contrast(100%) drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    filter: invert(99%) sepia(1%) saturate(2072%) hue-rotate(221deg) brightness(122%) contrast(100%) drop-shadow(2px 2px 4px rgba(0, 0, 0, 1));
 }
 
 .link-text {
     font-weight: 800;
 
-    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 1));
 }
 
 .featured-link::before {
@@ -133,7 +133,7 @@ body {
 
     background-size: cover;
 
-    filter: blur(5px); /* Adjust the blur amount as needed */
+    filter: blur(4px) brightness(80%); /* Adjust the blur amount as needed */
 }
 
 .portfolio-background::before {

@@ -6,7 +6,14 @@ function jsonParse(data) {
     let links = data['links'];
 
     for (let i = 0; i < links.length; i++) {
-        createLinkContainer(links[i]);
+        let link = createLinkContainer(links[i]);
+
+        if (links[i]['featured'] == true) {
+            document.getElementById('featured-container').append(link);
+        } else {
+            document.getElementById('socials-container').append(link);
+        }
+
     }
 }
 
@@ -21,6 +28,8 @@ function createLinkContainer(link_data) {
 
     let text = createDisplayText(link_data['display-text'])
     container.appendChild(text);
+
+    return a;
 
     document.getElementById('link-container').appendChild(a);
 }
