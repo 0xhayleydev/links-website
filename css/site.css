@@ -11,6 +11,7 @@ body {
 
 .content {
     margin: auto;
+    margin-top: 5vh;
     min-width: 580px;
     max-width: 580px;
 }
@@ -37,7 +38,6 @@ body {
     align-items: stretch;
     align-content: stretch;
     width: 580px;
-    height: 400px;
     margin: auto;
     position: relative;
 
@@ -168,8 +168,8 @@ body {
     }
 
     .intro>.image {
-        max-width: 20vh;
-        max-height: 20vh;
+        max-width: 200px;
+        max-height: 200px;
     }
 
     .link-icon {
