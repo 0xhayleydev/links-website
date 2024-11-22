@@ -5,7 +5,7 @@
             "name": "portfolio",
             "display-text": "Check out my portfolio",
             "icon": "device-gamepad.svg",
-            "url": "https://hayleydavi.es/",
+            "url": "https://hayleydavi.es",
             "user-name": ""
         },
         {
@@ -13,7 +13,7 @@
             "name": "itchio",
 			"display-text": "Play my games on itch.io",
             "icon": "brand-itchio.svg",
-            "url": "https://0xhayleydev.itch.io/",
+            "url": "https://0xhayleydev.itch.io",
             "user-name": "0xhayleydev"
         },
         {
@@ -66,10 +66,10 @@
         },
         {
             "featured": false,
-            "name": "twitter",
-			"display-text": "Follow me on Twitter",
-            "icon": "brand-twitter.svg",
-            "url": "https://twitter.com/0xhayleydev",
+            "name": "bluesky",
+			"display-text": "Follow me on Bluesky",
+            "icon": "brand-bluesky.svg",
+            "url": "https://bsky.app/profile/0xhayley.dev",
             "user-name": "0xhayleydev"
         },
         {
