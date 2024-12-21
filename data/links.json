@@ -18,14 +18,6 @@
         },
         {
             "featured": true,
-            "name": "email",
-			"display-text": "Contact me via email",
-            "icon": "mail.svg",
-            "url": "mailto:hayley@0xhayley.dev",
-            "user-name": "hayley@0xhayley.dev"
-        },
-        {
-            "featured": true,
             "name": "github",
 			"display-text": "Check out my GitHub",
             "icon": "brand-github.svg",
