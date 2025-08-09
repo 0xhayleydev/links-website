@@ -1,76 +1,49 @@
 {
-    "links": [
-        {
-            "featured": true,
-            "name": "portfolio",
-            "display-text": "Check out my portfolio",
-            "icon": "device-gamepad.svg",
-            "url": "https://hayleydavi.es",
-            "user-name": ""
-        },
-        {
-            "featured": true,
-            "name": "itchio",
-			"display-text": "Play my games on itch.io",
-            "icon": "brand-itchio.svg",
-            "url": "https://0xhayleydev.itch.io",
-            "user-name": "0xhayleydev"
-        },
-        {
-            "featured": true,
-            "name": "github",
-			"display-text": "Check out my GitHub",
-            "icon": "brand-github.svg",
-            "url": "https://github.com/0xhayleydev",
-            "user-name": "0xhayleydev"
-        },
-        {
-            "featured": false,
-            "name": "linkedin",
-			"display-text": "Check out my LinkedIn",
-            "icon": "brand-linkedin.svg",
-            "url": "https://www.linkedin.com/in/0xhayleydev",
-            "user-name": "0xhayleydev"
-        },
-        {
-            "featured": false,
-            "name": "instagram",
-			"display-text": "Follow me on Instagram",
-            "icon": "brand-instagram.svg",
-            "url": "https://instagram.com/0xhayleydev",
-            "user-name": "0xhayleydev"
-        },
-        {
-            "featured": false,
-            "name": "threads",
-			"display-text": "Follow me on Threads",
-            "icon": "brand-threads.svg",
-            "url": "https://threads.net/0xhayleydev",
-            "user-name": "0xhayleydev"
-        },
-        {
-            "featured": false,
-            "name": "twitch",
-			"display-text": "Watch me on Twitch",
-            "icon": "brand-twitch.svg",
-            "url": "https://twitch.tv/0xhayleydev",
-            "user-name": "0xhayleydev"
-        },
-        {
-            "featured": false,
-            "name": "bluesky",
-			"display-text": "Follow me on Bluesky",
-            "icon": "brand-bluesky.svg",
-            "url": "https://bsky.app/profile/0xhayley.dev",
-            "user-name": "0xhayleydev"
-        },
-        {
-            "featured": false,
-            "name": "youtube",
-			"display-text": "Watch me on YouTube",
-            "icon": "brand-youtube.svg",
-            "url": "https://www.youtube.com/@0xhayleydev",
-            "user-name": "0xhayleydev"
-        }
-    ]
+	"links": [
+		{
+			"disabled": false,
+			"featured": true,
+			"name": "portfolio",
+			"display-text": "See My Porfolio",
+			"icon": "device-gamepad.svg",
+			"url": "https://hayleydavi.es",
+			"user-name": ""
+		},
+		{
+			"disabled": false,
+			"featured": true,
+			"name": "itchio",
+			"display-text": "Play My Games",
+			"icon": "brand-itchio.svg",
+			"url": "https://0xhayleydev.itch.io",
+			"user-name": "0xhayleydev"
+		},
+		{
+			"disabled": false,
+			"featured": true,
+			"name": "github",
+			"display-text": "Explore My Code",
+			"icon": "brand-github.svg",
+			"url": "https://github.com/0xhayleydev",
+			"user-name": "0xhayleydev"
+		},
+		{
+			"disabled": false,
+			"featured": false,
+			"name": "linkedin",
+			"display-text": "Connect on LinkedIn",
+			"icon": "brand-linkedin.svg",
+			"url": "https://www.linkedin.com/in/0xhayleydev",
+			"user-name": "0xhayleydev"
+		},
+		{
+			"disabled": true,
+			"featured": false,
+			"name": "more-soon",
+			"display-text": "<i>More Coming Soon</i>",
+			"icon": "lock.svg",
+			"url": null,
+			"user-name": "0xhayleydev"
+		}
+	]
 }

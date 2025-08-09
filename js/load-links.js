@@ -13,8 +13,14 @@ function jsonParse(data) {
         } else {
             document.getElementById('socials-container').append(link);
         }
-
     }
+
+    inlineSVG.init({
+        svgSelector: 'img.link-icon',
+        initClass: 'js-inlinesvg'
+    }, function() {
+        console.log('Dynamic link-icon SVGs inlined!');
+    });
 }
 
 function createLinkContainer(link_data) {
@@ -30,8 +36,6 @@ function createLinkContainer(link_data) {
     container.appendChild(text);
 
     return a;
-
-    document.getElementById('link-container').appendChild(a);
 }
 
 function createContainer(link_data) {
@@ -39,17 +43,24 @@ function createContainer(link_data) {
     container.classList.add('link');
     container.id = link_data['name'];
 
-    if (link_data["featured"] == true) {
+    if (link_data['featured'] == true) {
         container.classList.add('featured-link');
         container.classList.add('blur-background');
         container.classList.add(link_data['name'] + '-background')
     }
+
+    if (link_data['disabled'])
+        container.classList.add('disabled')
 
     return container;
 }
 
 function createLink(link_data) {
     let a = document.createElement('a');
+    let link = link_data['url']
+    if (link == null)
+        return a
+
     a.href = link_data['url'];
     a.classList.add('url');
     return a;
